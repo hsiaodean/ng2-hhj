@@ -1,15 +1,4 @@
-<!doctype html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <title>Ng2Hhj</title>
-  <base href="/">
-
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
-  <link rel="stylesheet" href="./assets/css/pure.css">
-  <style>
-    /* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files */
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -54,9 +43,3 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-  </style>
-</head>
-<body>
-  <app-root>Loading...</app-root>
-</body>
-</html>

@@ -1,0 +1,8 @@
+<div class="header">
+    <a class="showmenu" (click)="toggleMenu()">menu</a>
+    <ul class="menu" [ngClass]="{'openMenu':isOpen}" >
+      <li  *ngFor="let menu of menuList" (click)="isOpen=false" >
+        <a [routerLink]="[menu.path]" [routerLinkActive]="['active']">{{menu.name}}</a>
+      </li>
+    </ul>
+  </div>
